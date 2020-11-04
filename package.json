@@ -25,6 +25,9 @@
     "url": "https://github.com/bowe-td/node-ts-example/issues"
   },
   "homepage": "https://github.com/bowe-td/node-ts-example#readme",
+  "engines": {
+    "node": "10"
+  },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "@sendgrid/mail": "^7.2.5",
