@@ -2,3 +2,5 @@ node_modules/
 **/*.log
 mongo-volume
 sendgrid.env
+
+dist

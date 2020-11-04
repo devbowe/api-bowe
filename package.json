@@ -5,8 +5,10 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node index.ts",
-    "start:server": "exec pm2-runtime start pm2.json",
+    "start": "node dist/index.js",
+    "postinstall": "tsc",
+    "start:dev": "exec pm2-runtime start pm2.json",
+    "start:prd": "ts-node index.ts",
     "dev:server": "ts-node-dev --transpile-only --ignore-watch node_modules index.ts",
     "migrate:init": "./node_modules/.bin/migrate-mongo init",
     "migrate:up": "./node_modules/.bin/migrate-mongo up",
