@@ -43,6 +43,7 @@
     "node-notifier": "^8.0.0",
     "pipefy-node": "^1.1.0",
     "rdstation": "^1.1.4",
+    "ts-node": "^9.0.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
@@ -62,6 +63,6 @@
     "migrate-mongo": "^8.1.1",
     "prettier": "^2.0.5",
     "ts-node-dev": "^1.0.0-pre.50",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7"
   }
 }
