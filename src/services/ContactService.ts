@@ -16,8 +16,8 @@ export default class ContactService {
       website: '',
     });
 
-    const rdStationData = rdStationResponse.data;
-    params.rdStationId = rdStationData.event_uuid;
+    // const rdStationData = rdStationResponse.data;
+    // params.rdStationId = rdStationData.event_uuid;
 
     const customer = {};
 

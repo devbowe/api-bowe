@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const send = (method, endpoint, data) => {
+const send = (method: any, endpoint: any, data: any) => {
   return new Promise((resolve, reject) => {
     const apiKey = process.env.RD_API_KEY;
     const baseUrl = 'https://api.rd.services/';
@@ -19,7 +19,7 @@ const send = (method, endpoint, data) => {
   });
 };
 
-const createConversion = (params) => {
+const createConversion = (params: any) => {
   return new Promise((resolve, reject) => {
     const endpoint = 'platform/conversions';
     const data = {
