@@ -7,6 +7,8 @@ export default class ContactService {
   public async create(data: any): Promise<any> {
     const params = Object.assign(data.body);
 
+    console.log(params);
+
     // https://developers.rdstation.com/pt-BR/authentication#conversionEventPostDetails
     const rdStationResponse = await rdStationUtils.createConversion({
       conversion_identifier: 'Site Bowe 2020 - step1',
