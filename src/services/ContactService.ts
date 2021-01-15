@@ -7,16 +7,23 @@ export default class ContactService {
   public async create(data: any): Promise<any> {
     const params = Object.assign(data.body);
 
-    console.log(params);
-
-    // https://developers.rdstation.com/pt-BR/authentication#conversionEventPostDetails
-    const rdStationResponse = await rdStationUtils.createConversion({
+    const conversionParam = {
       conversion_identifier: 'Site Bowe 2020 - step1',
       email: params.email,
       name: params.name,
       mobile_phone: params.phone,
-      website: '',
-    });
+      cf_leads_modelo_negocio: params.modelbusiness,
+      cf_my_custom_field: params.namebusiness,
+      cf_numero_de_funcionarios: params.numberemployees,
+      cf_natureza_do_negocio: params.optionbusiness,
+      company_site: params.website,
+      cf_cargo_site: params.office,
+    };
+
+    // https://developers.rdstation.com/pt-BR/authentication#conversionEventPostDetails
+    const rdStationResponse = await rdStationUtils.createConversion(
+      conversionParam,
+    );
 
     // const rdStationData = rdStationResponse.data;
     // params.rdStationId = rdStationData.event_uuid;
