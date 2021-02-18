@@ -11,15 +11,18 @@ export interface ICustomer extends Document {
   challenges: ObjectId;
 }
 
-const CustomerSchema: Schema = new Schema({
-  name: { type: String, required: true },
-  email: { type: String, required: true },
-  phone: { type: String, required: true },
-  rdStationId: { type: String, required: false },
-  createAt: {
-    type: Date,
-    default: Date.now
-  }
-}, { collection: 'customer' });
+const CustomerSchema: Schema = new Schema(
+  {
+    name: { type: String, required: true },
+    email: { type: String, required: true },
+    phone: { type: String, required: true },
+    rdStationId: { type: String, required: false },
+    createAt: {
+      type: Date,
+      default: Date.now,
+    },
+  },
+  { collection: 'customer' },
+);
 
 export default model<ICustomer>('Customer', CustomerSchema);
