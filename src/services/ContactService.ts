@@ -18,11 +18,11 @@ export default class ContactService {
       cf_natureza_do_negocio: params.optionbusiness,
       company_site: params.website,
       cf_cargo_site: params.office,
-      utm_campaign: params.utm_campaign,
-      utm_content: params.utm_content,
-      utm_medium: params.utm_medium,
-      utm_source: params.utm_source,
-      utm_term: params.utm_term,
+      cf_utm_campaign: params.utm_campaign,
+      cf_utm_content: params.utm_content,
+      cf_utm_medium: params.utm_medium,
+      cf_utm_source: params.utm_source,
+      cf_utm_term: params.utm_term,
     };
 
     // https://developers.rdstation.com/pt-BR/authentication#conversionEventPostDetails
