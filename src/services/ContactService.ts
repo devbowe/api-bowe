@@ -8,16 +8,16 @@ export default class ContactService {
     const params = Object.assign(data.body);
 
     const conversionParam = {
-      conversion_identifier: 'Site Bowe 2020 - step1',
+      conversion_identifier: `Site Bowe ${new Date().getFullYear()} - ${params.utm_term}`,
       email: params.email,
       name: params.name,
       mobile_phone: params.phone,
       cf_leads_modelo_negocio: params.modelbusiness,
       cf_my_custom_field: params.namebusiness,
-      cf_numero_de_funcionarios: params.numberemployees,
+      cf_numero_de_funcionarios_selecao: params.numberemployees,
       cf_natureza_do_negocio: params.optionbusiness,
       company_site: params.website,
-      cf_cargo_site: params.office,
+      cf_cargo_na_empresa: params.office,
       cf_utm_campaign: params.utm_campaign,
       cf_utm_content: params.utm_content,
       cf_utm_medium: params.utm_medium,
