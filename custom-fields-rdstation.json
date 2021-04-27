@@ -1,0 +1,2425 @@
+{
+    "fields": [
+        {
+            "uuid": "9aad7414-b90a-48e3-9d20-90fd33820dbf",
+            "label": {
+                "en-UD": "crwdns1545668:0crwdne1545668:0",
+                "en-US": "Website",
+                "es-ES": "Website",
+                "pt-BR": "Website",
+                "default": "Website"
+            },
+            "name": {
+                "en-UD": "crwdns1545670:0crwdne1545670:0",
+                "en-US": "website",
+                "es-ES": "website",
+                "pt-BR": "website",
+                "default": "website"
+            },
+            "api_identifier": "website",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "55ac8223-9c31-4db1-98f8-9879c44efb2e",
+            "label": {
+                "en-UD": "crwdns1545652:0crwdne1545652:0",
+                "en-US": "Bio",
+                "es-ES": "Biografía",
+                "pt-BR": "Biografia",
+                "default": "Biografia"
+            },
+            "name": {
+                "en-UD": "crwdns1545654:0crwdne1545654:0",
+                "en-US": "bio",
+                "es-ES": "biografía",
+                "pt-BR": "biografia",
+                "default": "biografia"
+            },
+            "api_identifier": "bio",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "290e963c-389f-4368-91c8-e3c1d71b8764",
+            "label": {
+                "en-UD": "crwdns1545660:0crwdne1545660:0",
+                "en-US": "Facebook",
+                "es-ES": "Facebook",
+                "pt-BR": "Facebook",
+                "default": "Facebook"
+            },
+            "name": {
+                "en-UD": "crwdns1545662:0crwdne1545662:0",
+                "en-US": "facebook",
+                "es-ES": "facebook",
+                "pt-BR": "facebook",
+                "default": "facebook"
+            },
+            "api_identifier": "facebook",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "f0a3dd8a-f044-432c-a1ce-1bb559d6edf4",
+            "label": {
+                "en-UD": "crwdns1510946:0crwdne1510946:0",
+                "en-US": "Email",
+                "es-ES": "Email",
+                "pt-BR": "Email",
+                "default": "Email"
+            },
+            "name": {
+                "en-UD": "crwdns1510948:0crwdne1510948:0",
+                "en-US": "email",
+                "es-ES": "email",
+                "pt-BR": "email",
+                "default": "email"
+            },
+            "api_identifier": "email",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "e978fe0a-50ed-4384-aa71-5bbf52f20485",
+            "label": {
+                "en-UD": "crwdns1510950:0crwdne1510950:0",
+                "en-US": "Job title",
+                "es-ES": "Cargo",
+                "pt-BR": "Cargo",
+                "default": "Cargo"
+            },
+            "name": {
+                "en-UD": "crwdns1510952:0crwdne1510952:0",
+                "en-US": "job title",
+                "es-ES": "cargo",
+                "pt-BR": "cargo",
+                "default": "cargo"
+            },
+            "api_identifier": "job_title",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "059ea2d6-39bc-4557-93e4-f393a23f4b96",
+            "label": {
+                "en-UD": "crwdns1510954:0crwdne1510954:0",
+                "en-US": "Mobile",
+                "es-ES": "Teléfono Celular",
+                "pt-BR": "Celular",
+                "default": "Celular"
+            },
+            "name": {
+                "en-UD": "crwdns1510956:0crwdne1510956:0",
+                "en-US": "mobile",
+                "es-ES": "teléfono celular",
+                "pt-BR": "celular",
+                "default": "celular"
+            },
+            "api_identifier": "mobile_phone",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "25ebfce7-8ecd-4847-8057-9ac21d20b784",
+            "label": {
+                "en-UD": "crwdns1545648:0crwdne1545648:0",
+                "en-US": "City",
+                "es-ES": "Ciudad",
+                "pt-BR": "Cidade",
+                "default": "Cidade"
+            },
+            "name": {
+                "en-UD": "crwdns1545650:0crwdne1545650:0",
+                "en-US": "city",
+                "es-ES": "ciudad",
+                "pt-BR": "cidade",
+                "default": "cidade"
+            },
+            "api_identifier": "city",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "fdeba6ec-f1cf-4b13-b2ea-e93d47c0d828",
+            "label": {
+                "en-UD": "crwdns1510942:0crwdne1510942:0",
+                "en-US": "Name",
+                "es-ES": "Nombre",
+                "pt-BR": "Nome",
+                "default": "Nome"
+            },
+            "name": {
+                "en-UD": "crwdns1510944:0crwdne1510944:0",
+                "en-US": "name",
+                "es-ES": "nombre",
+                "pt-BR": "nome",
+                "default": "nome"
+            },
+            "api_identifier": "name",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "592ffdf6-4a4a-4b9f-9539-f88e9f832203",
+            "label": {
+                "en-UD": "crwdns1545664:0crwdne1545664:0",
+                "en-US": "LinkedIn",
+                "es-ES": "Linkedin",
+                "pt-BR": "Linkedin",
+                "default": "Linkedin"
+            },
+            "name": {
+                "en-UD": "crwdns1545666:0crwdne1545666:0",
+                "en-US": "linkedin",
+                "es-ES": "Linkedin",
+                "pt-BR": "linkedin",
+                "default": "linkedin"
+            },
+            "api_identifier": "linkedin",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "cdf28cd9-e387-4e42-84e6-e33e87d0c581",
+            "label": {
+                "en-UD": "crwdns1545676:0crwdne1545676:0",
+                "en-US": "Country",
+                "es-ES": "País",
+                "pt-BR": "País",
+                "default": "País"
+            },
+            "name": {
+                "en-UD": "crwdns1545678:0crwdne1545678:0",
+                "en-US": "country",
+                "es-ES": "país",
+                "pt-BR": "país",
+                "default": "país"
+            },
+            "api_identifier": "country",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "29a2f7d0-5dc6-4466-9af7-bd9bf4244d84",
+            "label": {
+                "en-UD": "crwdns1545656:0crwdne1545656:0",
+                "en-US": "Twitter",
+                "es-ES": "Twitter",
+                "pt-BR": "Twitter",
+                "default": "Twitter"
+            },
+            "name": {
+                "en-UD": "crwdns1545658:0crwdne1545658:0",
+                "en-US": "twitter",
+                "es-ES": "twitter",
+                "pt-BR": "twitter",
+                "default": "twitter"
+            },
+            "api_identifier": "twitter",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "ff720b63-8f20-42a5-aa00-bb0ce50388be",
+            "label": {
+                "en-UD": "crwdns1545700:0crwdne1545700:0",
+                "en-US": "Tags",
+                "es-ES": "Tags",
+                "pt-BR": "Tags",
+                "default": "Tags"
+            },
+            "name": {
+                "en-UD": "crwdns1545702:0crwdne1545702:0",
+                "en-US": "Tags",
+                "es-ES": "Tags",
+                "pt-BR": "Tags",
+                "default": "Tags"
+            },
+            "api_identifier": "tags",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "SET"
+        },
+        {
+            "uuid": "9bfa0d04-ede1-4f6b-8f66-f4aa7ccda1ec",
+            "label": {
+                "en-UD": "crwdns1545672:0crwdne1545672:0",
+                "en-US": "State",
+                "es-ES": "Estado",
+                "pt-BR": "Estado",
+                "default": "Estado"
+            },
+            "name": {
+                "en-UD": "crwdns1545674:0crwdne1545674:0",
+                "en-US": "state",
+                "es-ES": "estado",
+                "pt-BR": "estado",
+                "default": "estado"
+            },
+            "api_identifier": "state",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "f3f2f760-535b-44d4-97ad-9fcc924bfa77",
+            "label": {
+                "en-UD": "crwdns1545644:0crwdne1545644:0",
+                "en-US": "Phone",
+                "es-ES": "Teléfono",
+                "pt-BR": "Telefone",
+                "default": "Telefone"
+            },
+            "name": {
+                "en-UD": "crwdns1545646:0crwdne1545646:0",
+                "en-US": "phone",
+                "es-ES": "teléfono",
+                "pt-BR": "telefone",
+                "default": "telefone"
+            },
+            "api_identifier": "personal_phone",
+            "custom_field": false,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "c47c1f34-4b47-4024-bd01-29ffb7c8f29f",
+            "label": {
+                "pt-BR": "Código da vaga",
+                "default": "Código da vaga"
+            },
+            "name": {
+                "pt-BR": "[vagas] codigovaga",
+                "default": "[vagas] codigovaga"
+            },
+            "api_identifier": "cf_vagas_codigovaga",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "403d6815-d5a1-4aa5-a890-ce63152702d3",
+            "label": {
+                "pt-BR": "Select Field",
+                "default": "Select Field"
+            },
+            "name": {
+                "pt-BR": "Select Field",
+                "default": "Select Field"
+            },
+            "api_identifier": "cf_select_field",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Opção 1",
+                        "label": {
+                            "pt-BR": "Opção 1",
+                            "default": "Opção 1"
+                        }
+                    },
+                    {
+                        "value": "Opção 2",
+                        "label": {
+                            "pt-BR": "Opção 2",
+                            "default": "Opção 2"
+                        }
+                    },
+                    {
+                        "value": "Opção 3",
+                        "label": {
+                            "pt-BR": "Opção 3",
+                            "default": "Opção 3"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "e944b2d8-9dfb-4ccf-ad34-27b9440681ab",
+            "label": {
+                "pt-BR": "O que você vende:",
+                "default": "O que você vende:"
+            },
+            "name": {
+                "pt-BR": "leads-o-que-vende",
+                "default": "leads-o-que-vende"
+            },
+            "api_identifier": "cf_o_que_voce_vende",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Serviços",
+                        "label": {
+                            "pt-BR": "Serviços",
+                            "default": "Serviços"
+                        }
+                    },
+                    {
+                        "value": "Produtos digitais",
+                        "label": {
+                            "pt-BR": "Produtos digitais",
+                            "default": "Produtos digitais"
+                        }
+                    },
+                    {
+                        "value": "Produtos físicos",
+                        "label": {
+                            "pt-BR": "Produtos físicos",
+                            "default": "Produtos físicos"
+                        }
+                    },
+                    {
+                        "value": "Serviços/produtos digitais",
+                        "label": {
+                            "pt-BR": "Serviços/produtos digitais",
+                            "default": "Serviços/produtos digitais"
+                        }
+                    },
+                    {
+                        "value": "Serviços/produtos físicos",
+                        "label": {
+                            "pt-BR": "Serviços/produtos físicos",
+                            "default": "Serviços/produtos físicos"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "7d87b871-5671-43b6-829d-4584e88403fd",
+            "label": {
+                "pt-BR": "Departamento que você atua:",
+                "default": "Departamento que você atua:"
+            },
+            "name": {
+                "pt-BR": "leads-dpto-pessoa",
+                "default": "leads-dpto-pessoa"
+            },
+            "api_identifier": "cf_departamento_atual",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Marketing",
+                        "label": {
+                            "pt-BR": "Marketing",
+                            "default": "Marketing"
+                        }
+                    },
+                    {
+                        "value": "Growth",
+                        "label": {
+                            "pt-BR": "Growth",
+                            "default": "Growth"
+                        }
+                    },
+                    {
+                        "value": "Vendas",
+                        "label": {
+                            "pt-BR": "Vendas",
+                            "default": "Vendas"
+                        }
+                    },
+                    {
+                        "value": "Tecnologia/Produtos",
+                        "label": {
+                            "pt-BR": "Tecnologia/Produtos",
+                            "default": "Tecnologia/Produtos"
+                        }
+                    },
+                    {
+                        "value": "Diretoria/Conselho",
+                        "label": {
+                            "pt-BR": "Diretoria/Conselho",
+                            "default": "Diretoria/Conselho"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "9464b881-49ea-44fa-8413-a47b7f99cfe3",
+            "label": {
+                "pt-BR": "Numero de funcionários:",
+                "default": "Numero de funcionários:"
+            },
+            "name": {
+                "pt-BR": "leads-numero-funcionarios",
+                "default": "leads-numero-funcionarios"
+            },
+            "api_identifier": "cf_numero_de_funcionarios",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "1-10",
+                        "label": {
+                            "pt-BR": "1-10",
+                            "default": "1-10"
+                        }
+                    },
+                    {
+                        "value": "11-25",
+                        "label": {
+                            "pt-BR": "11-25",
+                            "default": "11-25"
+                        }
+                    },
+                    {
+                        "value": "26-50",
+                        "label": {
+                            "pt-BR": "26-50",
+                            "default": "26-50"
+                        }
+                    },
+                    {
+                        "value": "51-100",
+                        "label": {
+                            "pt-BR": "51-100",
+                            "default": "51-100"
+                        }
+                    },
+                    {
+                        "value": "101-300",
+                        "label": {
+                            "pt-BR": "101-300",
+                            "default": "101-300"
+                        }
+                    },
+                    {
+                        "value": "301-1000",
+                        "label": {
+                            "pt-BR": "301-1000",
+                            "default": "301-1000"
+                        }
+                    },
+                    {
+                        "value": "1001-5000",
+                        "label": {
+                            "pt-BR": "1001-5000",
+                            "default": "1001-5000"
+                        }
+                    },
+                    {
+                        "value": "mais que 5000",
+                        "label": {
+                            "pt-BR": "mais que 5000",
+                            "default": "mais que 5000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "166b7b08-8bb9-4561-9ff4-04cc2d159691",
+            "label": {
+                "pt-BR": "Faturamento Mensal",
+                "default": "Faturamento Mensal"
+            },
+            "name": {
+                "pt-BR": "Faturamento Mensal-seleção",
+                "default": "Faturamento Mensal-seleção"
+            },
+            "api_identifier": "cf_faturamento_mensal_selecao",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "menor que R$ 10.000",
+                        "label": {
+                            "pt-BR": "menor que R$ 10.000",
+                            "default": "menor que R$ 10.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 10.000 a R$ 50.000",
+                        "label": {
+                            "pt-BR": "R$ 10.000 a R$ 50.000",
+                            "default": "R$ 10.000 a R$ 50.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 50.001 a R$ 300.000",
+                        "label": {
+                            "pt-BR": "R$ 50.001 a R$ 300.000",
+                            "default": "R$ 50.001 a R$ 300.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 300.001 a R$ 500.000",
+                        "label": {
+                            "pt-BR": "R$ 300.001 a R$ 500.000",
+                            "default": "R$ 300.001 a R$ 500.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 500.001 a R$ 1.000.000",
+                        "label": {
+                            "pt-BR": "R$ 500.001 a R$ 1.000.000",
+                            "default": "R$ 500.001 a R$ 1.000.000"
+                        }
+                    },
+                    {
+                        "value": "maior que R$ 1.000.000",
+                        "label": {
+                            "pt-BR": "maior que R$ 1.000.000",
+                            "default": "maior que R$ 1.000.000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "RADIO_BUTTON",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "24aba325-4fef-4cc9-95a4-84a5a90a34be",
+            "label": {
+                "pt-BR": "Verba Mensal de MKT",
+                "default": "Verba Mensal de MKT"
+            },
+            "name": {
+                "pt-BR": "Verba Mensal de MKT",
+                "default": "Verba Mensal de MKT"
+            },
+            "api_identifier": "cf_verba_mensal_de_mkt",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "R$ 1.001 a R$ 3.000",
+                        "label": {
+                            "pt-BR": "R$ 1.001 a R$ 3.000",
+                            "default": "R$ 1.001 a R$ 3.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 3.001 a R$ 5.000",
+                        "label": {
+                            "pt-BR": "R$ 3.001 a R$ 5.000",
+                            "default": "R$ 3.001 a R$ 5.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 5.001 a R$ 10.000",
+                        "label": {
+                            "pt-BR": "R$ 5.001 a R$ 10.000",
+                            "default": "R$ 5.001 a R$ 10.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 10.001 a R$ 20.000",
+                        "label": {
+                            "pt-BR": "R$ 10.001 a R$ 20.000",
+                            "default": "R$ 10.001 a R$ 20.000"
+                        }
+                    },
+                    {
+                        "value": "maior que R$ 25.000",
+                        "label": {
+                            "pt-BR": "maior que R$ 25.000",
+                            "default": "maior que R$ 25.000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "RADIO_BUTTON",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "08c1525e-f6aa-4ea3-8118-f52c7ea8dc90",
+            "label": {
+                "pt-BR": "utm_medium",
+                "default": "utm_medium"
+            },
+            "name": {
+                "pt-BR": "utm_medium",
+                "default": "utm_medium"
+            },
+            "api_identifier": "cf_utm_medium",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "1c6927b9-b158-4b8b-85e4-c83aae36ce2d",
+            "label": {
+                "pt-BR": "Qual é o ticket médio do seu principal produto/serviço?",
+                "default": "Qual é o ticket médio do seu principal produto/serviço?"
+            },
+            "name": {
+                "pt-BR": "leads-ticket-medio",
+                "default": "leads-ticket-medio"
+            },
+            "api_identifier": "cf_ticket_medio",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "a1627d14-332f-4199-ad22-a170f557fd85",
+            "label": {
+                "pt-BR": "Faturamento Mensal da Empresa",
+                "default": "Faturamento Mensal da Empresa"
+            },
+            "name": {
+                "pt-BR": "Faturamento Mensal da Empresa-seleção",
+                "default": "Faturamento Mensal da Empresa-seleção"
+            },
+            "api_identifier": "cf_faturamento_mensal_da_empresa_selecao",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "R$ 10.001 a R$ 50.000",
+                        "label": {
+                            "pt-BR": "R$ 10.001 a R$ 50.000",
+                            "default": "R$ 10.001 a R$ 50.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 50.001 a R$ 300.000",
+                        "label": {
+                            "pt-BR": "R$ 50.001 a R$ 300.000",
+                            "default": "R$ 50.001 a R$ 300.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 300.001 a R$ 500.000",
+                        "label": {
+                            "pt-BR": "R$ 300.001 a R$ 500.000",
+                            "default": "R$ 300.001 a R$ 500.000"
+                        }
+                    },
+                    {
+                        "value": "maior que R$ 500.000",
+                        "label": {
+                            "pt-BR": "maior que R$ 500.000",
+                            "default": "maior que R$ 500.000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "367293fd-d0fd-488b-874d-7292ecece964",
+            "label": {
+                "pt-BR": "Assunto",
+                "default": "Assunto"
+            },
+            "name": {
+                "pt-BR": "[form padrão] Assunto",
+                "default": "[form padrão] Assunto"
+            },
+            "api_identifier": "cf_assunto",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "d990219b-76cd-4b52-857d-baaa9a7072f3",
+            "label": {
+                "pt-BR": "Qual o seu CPF?",
+                "default": "Qual o seu CPF?"
+            },
+            "name": {
+                "pt-BR": "[vagas] CPF Candidato",
+                "default": "[vagas] CPF Candidato"
+            },
+            "api_identifier": "cf_cpf_candidato_vaga",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "NUMBER_INPUT",
+            "data_type": "INTEGER"
+        },
+        {
+            "uuid": "2ee112a9-bfe7-48db-b7fe-39e8bd64e03c",
+            "label": {
+                "pt-BR": "Estou ciente e concordo que esses dados sejam utilizados para envio de ofertas e conteúdos personalizados de acordo com os meus interesses. A qualquer momento posso voltar atrás nessa decisão.",
+                "default": "Estou ciente e concordo que esses dados sejam utilizados para envio de ofertas e conteúdos personalizados de acordo com os meus interesses. A qualquer momento posso voltar atrás nessa decisão."
+            },
+            "name": {
+                "pt-BR": "Proteção de dados",
+                "default": "Proteção de dados"
+            },
+            "api_identifier": "cf_consentimento",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "CHECK_BOX",
+            "data_type": "BOOLEAN"
+        },
+        {
+            "uuid": "6149b9af-7f6d-45b8-99d6-c8eb84b89e63",
+            "label": {
+                "pt-BR": "Modelo de Receita:",
+                "default": "Modelo de Receita:"
+            },
+            "name": {
+                "pt-BR": "leads-modelo-receita",
+                "default": "leads-modelo-receita"
+            },
+            "api_identifier": "cf_modelo_de_receita",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Projetos/vendas pontuais",
+                        "label": {
+                            "pt-BR": "Projetos/vendas pontuais",
+                            "default": "Projetos/vendas pontuais"
+                        }
+                    },
+                    {
+                        "value": "Receita/contrato recorrente",
+                        "label": {
+                            "pt-BR": "Receita/contrato recorrente",
+                            "default": "Receita/contrato recorrente"
+                        }
+                    },
+                    {
+                        "value": "Recorrente + pontuais",
+                        "label": {
+                            "pt-BR": "Recorrente + pontuais",
+                            "default": "Recorrente + pontuais"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "b6ffafef-c37d-4a98-8d18-d0d84769323a",
+            "label": {
+                "pt-BR": "CONTE MAIS SOBRE VOCÊ, COMO VOCÊ PODE NOS SURPREENDER?",
+                "default": "CONTE MAIS SOBRE VOCÊ, COMO VOCÊ PODE NOS SURPREENDER?"
+            },
+            "name": {
+                "pt-BR": "Mais Sobre Você",
+                "default": "Mais Sobre Você"
+            },
+            "api_identifier": "cf_mais_sobre_voce",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_AREA",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "9bc35838-0bc8-4792-b5a7-d0e972d57559",
+            "label": {
+                "pt-BR": "Cargo",
+                "default": "Cargo"
+            },
+            "name": {
+                "pt-BR": "Cargo na Empresa",
+                "default": "Cargo na Empresa"
+            },
+            "api_identifier": "cf_cargo_na_empresa",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Sócio/Proprietário(a)",
+                        "label": {
+                            "pt-BR": "Sócio/Proprietário(a)",
+                            "default": "Sócio/Proprietário(a)"
+                        }
+                    },
+                    {
+                        "value": "CEO/Presidente",
+                        "label": {
+                            "pt-BR": "CEO/Presidente",
+                            "default": "CEO/Presidente"
+                        }
+                    },
+                    {
+                        "value": "Diretor(a)",
+                        "label": {
+                            "pt-BR": "Diretor(a)",
+                            "default": "Diretor(a)"
+                        }
+                    },
+                    {
+                        "value": "Gerente",
+                        "label": {
+                            "pt-BR": "Gerente",
+                            "default": "Gerente"
+                        }
+                    },
+                    {
+                        "value": "Coordenador(a)",
+                        "label": {
+                            "pt-BR": "Coordenador(a)",
+                            "default": "Coordenador(a)"
+                        }
+                    },
+                    {
+                        "value": "Analista",
+                        "label": {
+                            "pt-BR": "Analista",
+                            "default": "Analista"
+                        }
+                    },
+                    {
+                        "value": "Comercial",
+                        "label": {
+                            "pt-BR": "Comercial",
+                            "default": "Comercial"
+                        }
+                    },
+                    {
+                        "value": "Outros",
+                        "label": {
+                            "pt-BR": "Outros",
+                            "default": "Outros"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "RADIO_BUTTON",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "285df3e3-f913-44a3-af1c-db68c4615d0a",
+            "label": {
+                "pt-BR": "Você completou os testes na mindsight?",
+                "default": "Você completou os testes na mindsight?"
+            },
+            "name": {
+                "pt-BR": "[vagas] Completou Mindsight",
+                "default": "[vagas] Completou Mindsight"
+            },
+            "api_identifier": "cf_completou_mindsight",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Sim",
+                        "label": {
+                            "pt-BR": "Sim",
+                            "default": "Sim"
+                        }
+                    },
+                    {
+                        "value": "Não",
+                        "label": {
+                            "pt-BR": "Não",
+                            "default": "Não"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "MULTIPLE_CHOICE",
+            "data_type": "STRING[]"
+        },
+        {
+            "uuid": "080cb34a-bcf2-4162-81c3-0ec8c4ae8e20",
+            "label": {
+                "pt-BR": "porte",
+                "default": "porte"
+            },
+            "name": {
+                "pt-BR": "porte",
+                "default": "porte"
+            },
+            "api_identifier": "cf_porte",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "b9701753-635b-4b69-929e-b7852a773c32",
+            "label": {
+                "pt-BR": "Nome da empresa",
+                "default": "Nome da empresa"
+            },
+            "name": {
+                "pt-BR": "nome_empresa",
+                "default": "nome_empresa"
+            },
+            "api_identifier": "cf_my_custom_field",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "4126a3c1-0e72-452c-b3f4-5953e736ca0f",
+            "label": {
+                "pt-BR": "Qual seu cargo?",
+                "default": "Qual seu cargo?"
+            },
+            "name": {
+                "pt-BR": "Qual seu cargo",
+                "default": "Qual seu cargo"
+            },
+            "api_identifier": "cf_qual_seu_cargo",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Proprietário/Sócio(a)",
+                        "label": {
+                            "pt-BR": "Proprietário/Sócio(a)",
+                            "default": "Proprietário/Sócio(a)"
+                        }
+                    },
+                    {
+                        "value": "Diretor(a)",
+                        "label": {
+                            "pt-BR": "Diretor(a)",
+                            "default": "Diretor(a)"
+                        }
+                    },
+                    {
+                        "value": "Gerente",
+                        "label": {
+                            "pt-BR": "Gerente",
+                            "default": "Gerente"
+                        }
+                    },
+                    {
+                        "value": "Coordenador(a)",
+                        "label": {
+                            "pt-BR": "Coordenador(a)",
+                            "default": "Coordenador(a)"
+                        }
+                    },
+                    {
+                        "value": "Analista",
+                        "label": {
+                            "pt-BR": "Analista",
+                            "default": "Analista"
+                        }
+                    },
+                    {
+                        "value": "Assistente",
+                        "label": {
+                            "pt-BR": "Assistente",
+                            "default": "Assistente"
+                        }
+                    },
+                    {
+                        "value": "Estagiário(a)",
+                        "label": {
+                            "pt-BR": "Estagiário(a)",
+                            "default": "Estagiário(a)"
+                        }
+                    },
+                    {
+                        "value": "Estudante",
+                        "label": {
+                            "pt-BR": "Estudante",
+                            "default": "Estudante"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "1f3df8e6-6f9a-4133-87a8-a6173e033988",
+            "label": {
+                "pt-BR": "Link do portifólio",
+                "default": "Link do portifólio"
+            },
+            "name": {
+                "pt-BR": "Link Portifólio",
+                "default": "Link Portifólio"
+            },
+            "api_identifier": "cf_link_portifolio",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "5cca9eee-f7ea-4fe3-bb32-7de6099c5c94",
+            "label": {
+                "pt-BR": "Raciocínio Mindsight",
+                "default": "Raciocínio Mindsight"
+            },
+            "name": {
+                "pt-BR": "[vagas] Raciocínio Mindsight",
+                "default": "[vagas] Raciocínio Mindsight"
+            },
+            "api_identifier": "cf_raciocinio_mindsight",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "NUMBER_INPUT",
+            "data_type": "INTEGER"
+        },
+        {
+            "uuid": "d54ed30b-e3d9-468e-88c0-f424a553418a",
+            "label": {
+                "pt-BR": "test test",
+                "default": "test test"
+            },
+            "name": {
+                "pt-BR": "test test",
+                "default": "test test"
+            },
+            "api_identifier": "cf_test_test",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "teste",
+                        "label": {
+                            "pt-BR": "teste",
+                            "default": "teste"
+                        }
+                    },
+                    {
+                        "value": "teste 2",
+                        "label": {
+                            "pt-BR": "teste 2",
+                            "default": "teste 2"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "0aec95d9-5d3d-4d6e-9b24-81b514362512",
+            "label": {
+                "pt-BR": "Como você avalia sua senioridade hoje?",
+                "default": "Como você avalia sua senioridade hoje?"
+            },
+            "name": {
+                "pt-BR": "[vagas] Como você avalia a sua senioridade hoje?",
+                "default": "[vagas] Como você avalia a sua senioridade hoje?"
+            },
+            "api_identifier": "cf_como_voce_avalia_a_sua_senioridade_hoje",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Júnior",
+                        "label": {
+                            "pt-BR": "Júnior",
+                            "default": "Júnior"
+                        }
+                    },
+                    {
+                        "value": "Pleno",
+                        "label": {
+                            "pt-BR": "Pleno",
+                            "default": "Pleno"
+                        }
+                    },
+                    {
+                        "value": "Sênior",
+                        "label": {
+                            "pt-BR": "Sênior",
+                            "default": "Sênior"
+                        }
+                    },
+                    {
+                        "value": "Gestão",
+                        "label": {
+                            "pt-BR": "Gestão",
+                            "default": "Gestão"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "RADIO_BUTTON",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "f5dce8db-4264-442e-875d-f2c2d3819ddf",
+            "label": {
+                "pt-BR": "Cargo",
+                "default": "Cargo"
+            },
+            "name": {
+                "pt-BR": "Cargo-selecao",
+                "default": "Cargo-selecao"
+            },
+            "api_identifier": "cf_cargo_selecao",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Sócio/Proprietário(a)",
+                        "label": {
+                            "pt-BR": "Sócio/Proprietário(a)",
+                            "default": "Sócio/Proprietário(a)"
+                        }
+                    },
+                    {
+                        "value": "CEO/Presidente",
+                        "label": {
+                            "pt-BR": "CEO/Presidente",
+                            "default": "CEO/Presidente"
+                        }
+                    },
+                    {
+                        "value": "Diretor(a)",
+                        "label": {
+                            "pt-BR": "Diretor(a)",
+                            "default": "Diretor(a)"
+                        }
+                    },
+                    {
+                        "value": "Gerente(a)",
+                        "label": {
+                            "pt-BR": "Gerente(a)",
+                            "default": "Gerente(a)"
+                        }
+                    },
+                    {
+                        "value": "Coordenador(a)",
+                        "label": {
+                            "pt-BR": "Coordenador(a)",
+                            "default": "Coordenador(a)"
+                        }
+                    },
+                    {
+                        "value": "Administrador(a)",
+                        "label": {
+                            "pt-BR": "Administrador(a)",
+                            "default": "Administrador(a)"
+                        }
+                    },
+                    {
+                        "value": "Analista",
+                        "label": {
+                            "pt-BR": "Analista",
+                            "default": "Analista"
+                        }
+                    },
+                    {
+                        "value": "Comercial",
+                        "label": {
+                            "pt-BR": "Comercial",
+                            "default": "Comercial"
+                        }
+                    },
+                    {
+                        "value": "Outro",
+                        "label": {
+                            "pt-BR": "Outro",
+                            "default": "Outro"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "a8d5ea6d-f74b-45ad-b68c-a88b62821b05",
+            "label": {
+                "pt-BR": "Tipo de Negócio",
+                "default": "Tipo de Negócio"
+            },
+            "name": {
+                "pt-BR": "Tipo de Negócio-seleção",
+                "default": "Tipo de Negócio-seleção"
+            },
+            "api_identifier": "cf_tipo_de_negocio_selecao",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "B2B",
+                        "label": {
+                            "pt-BR": "B2B",
+                            "default": "B2B"
+                        }
+                    },
+                    {
+                        "value": "B2C",
+                        "label": {
+                            "pt-BR": "B2C",
+                            "default": "B2C"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "32b9555b-c860-465d-848f-d140b21418f2",
+            "label": {
+                "pt-BR": "Qual o CNPJ da sua empresa?",
+                "default": "Qual o CNPJ da sua empresa?"
+            },
+            "name": {
+                "pt-BR": "CNPJ",
+                "default": "CNPJ"
+            },
+            "api_identifier": "cf_cnpj",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "NUMBER_INPUT",
+            "data_type": "INTEGER"
+        },
+        {
+            "uuid": "8f77c5d1-c423-40f6-aa49-b526d2e23d08",
+            "label": {
+                "pt-BR": "Faturamento Mensal da Empresa",
+                "default": "Faturamento Mensal da Empresa"
+            },
+            "name": {
+                "pt-BR": "Faturamento Mensal da Empresa-seleção correta",
+                "default": "Faturamento Mensal da Empresa-seleção correta"
+            },
+            "api_identifier": "cf_faturamento_mensal_da_empresa_selecao_correta",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "R$ 10.001 a R$ 50.000",
+                        "label": {
+                            "pt-BR": "R$ 10.001 a R$ 50.000",
+                            "default": "R$ 10.001 a R$ 50.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 50.001 a R$ 300.000",
+                        "label": {
+                            "pt-BR": "R$ 50.001 a R$ 300.000",
+                            "default": "R$ 50.001 a R$ 300.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 300.001 a R$ 500.000",
+                        "label": {
+                            "pt-BR": "R$ 300.001 a R$ 500.000",
+                            "default": "R$ 300.001 a R$ 500.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 500.001 a R$ 1.000.000",
+                        "label": {
+                            "pt-BR": "R$ 500.001 a R$ 1.000.000",
+                            "default": "R$ 500.001 a R$ 1.000.000"
+                        }
+                    },
+                    {
+                        "value": "maior que R$ 1.000.000",
+                        "label": {
+                            "pt-BR": "maior que R$ 1.000.000",
+                            "default": "maior que R$ 1.000.000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "RADIO_BUTTON",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "c8ee1f2b-789e-4d88-8ed9-e835ecadb57e",
+            "label": {
+                "pt-BR": "Faturamento Mensal",
+                "default": "Faturamento Mensal"
+            },
+            "name": {
+                "pt-BR": "Faturamento Mensal-seleção correta",
+                "default": "Faturamento Mensal-seleção correta"
+            },
+            "api_identifier": "cf_faturamento_mensal_selecao_correta",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "menor que R$ 10.000",
+                        "label": {
+                            "pt-BR": "menor que R$ 10.000",
+                            "default": "menor que R$ 10.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 10.001 a R$ 50.000",
+                        "label": {
+                            "pt-BR": "R$ 10.001 a R$ 50.000",
+                            "default": "R$ 10.001 a R$ 50.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 50.001 a R$ 300.000",
+                        "label": {
+                            "pt-BR": "R$ 50.001 a R$ 300.000",
+                            "default": "R$ 50.001 a R$ 300.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 300.001 a R$ 500.000",
+                        "label": {
+                            "pt-BR": "R$ 300.001 a R$ 500.000",
+                            "default": "R$ 300.001 a R$ 500.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 500.001 a R$ 1.000.000",
+                        "label": {
+                            "pt-BR": "R$ 500.001 a R$ 1.000.000",
+                            "default": "R$ 500.001 a R$ 1.000.000"
+                        }
+                    },
+                    {
+                        "value": "maior que R$ 1.000.000",
+                        "label": {
+                            "pt-BR": "maior que R$ 1.000.000",
+                            "default": "maior que R$ 1.000.000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "d048d23e-51df-4055-8088-3c05e3061b4c",
+            "label": {
+                "pt-BR": "Tipo de Negócio",
+                "default": "Tipo de Negócio"
+            },
+            "name": {
+                "pt-BR": "Tipo de Negócio",
+                "default": "Tipo de Negócio"
+            },
+            "api_identifier": "cf_tipo_de_negocio",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "B2B",
+                        "label": {
+                            "pt-BR": "B2B",
+                            "default": "B2B"
+                        }
+                    },
+                    {
+                        "value": "B2C",
+                        "label": {
+                            "pt-BR": "B2C",
+                            "default": "B2C"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "RADIO_BUTTON",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "1eb0338e-6ff2-4a7e-9e85-7d8e44b493cb",
+            "label": {
+                "pt-BR": "Estágio do seu desafio em geração de novos negócios:",
+                "default": "Estágio do seu desafio em geração de novos negócios:"
+            },
+            "name": {
+                "pt-BR": "leads-estagio-desafio",
+                "default": "leads-estagio-desafio"
+            },
+            "api_identifier": "cf_estagio_do_seu_desafio",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Vamos lançar a empresa/produto",
+                        "label": {
+                            "pt-BR": "Vamos lançar a empresa/produto",
+                            "default": "Vamos lançar a empresa/produto"
+                        }
+                    },
+                    {
+                        "value": "Construir meu funil de marketing/vendas",
+                        "label": {
+                            "pt-BR": "Construir meu funil de marketing/vendas",
+                            "default": "Construir meu funil de marketing/vendas"
+                        }
+                    },
+                    {
+                        "value": "Melhorar minhas taxas de conversão",
+                        "label": {
+                            "pt-BR": "Melhorar minhas taxas de conversão",
+                            "default": "Melhorar minhas taxas de conversão"
+                        }
+                    },
+                    {
+                        "value": "Gerar mais leads",
+                        "label": {
+                            "pt-BR": "Gerar mais leads",
+                            "default": "Gerar mais leads"
+                        }
+                    },
+                    {
+                        "value": "Gerar leads mais qualificados",
+                        "label": {
+                            "pt-BR": "Gerar leads mais qualificados",
+                            "default": "Gerar leads mais qualificados"
+                        }
+                    },
+                    {
+                        "value": "Implantar inside sales",
+                        "label": {
+                            "pt-BR": "Implantar inside sales",
+                            "default": "Implantar inside sales"
+                        }
+                    },
+                    {
+                        "value": "Melhorar taxas de conversão do funil",
+                        "label": {
+                            "pt-BR": "Melhorar taxas de conversão do funil",
+                            "default": "Melhorar taxas de conversão do funil"
+                        }
+                    },
+                    {
+                        "value": "Construir a máquina de vendas",
+                        "label": {
+                            "pt-BR": "Construir a máquina de vendas",
+                            "default": "Construir a máquina de vendas"
+                        }
+                    },
+                    {
+                        "value": "Ser autoridade digital no segmento",
+                        "label": {
+                            "pt-BR": "Ser autoridade digital no segmento",
+                            "default": "Ser autoridade digital no segmento"
+                        }
+                    },
+                    {
+                        "value": "SEO/marketing de conteúdo/automação",
+                        "label": {
+                            "pt-BR": "SEO/marketing de conteúdo/automação",
+                            "default": "SEO/marketing de conteúdo/automação"
+                        }
+                    },
+                    {
+                        "value": "Não sei, preciso de um diagnóstico",
+                        "label": {
+                            "pt-BR": "Não sei, preciso de um diagnóstico",
+                            "default": "Não sei, preciso de um diagnóstico"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "39f805d1-eaa3-4ecd-a955-3607b6bbc634",
+            "label": {
+                "pt-BR": "Qual opção representa melhor a natureza do seu negócio?",
+                "default": "Qual opção representa melhor a natureza do seu negócio?"
+            },
+            "name": {
+                "pt-BR": "leads-segmento-atuacao",
+                "default": "leads-segmento-atuacao"
+            },
+            "api_identifier": "cf_natureza_do_negocio",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Tech: fintech",
+                        "label": {
+                            "pt-BR": "Tech: fintech",
+                            "default": "Tech: fintech"
+                        }
+                    },
+                    {
+                        "value": "Tech: SaaS",
+                        "label": {
+                            "pt-BR": "Tech: SaaS",
+                            "default": "Tech: SaaS"
+                        }
+                    },
+                    {
+                        "value": "Tech: outros",
+                        "label": {
+                            "pt-BR": "Tech: outros",
+                            "default": "Tech: outros"
+                        }
+                    },
+                    {
+                        "value": "Serviços: inovação",
+                        "label": {
+                            "pt-BR": "Serviços: inovação",
+                            "default": "Serviços: inovação"
+                        }
+                    },
+                    {
+                        "value": "Serviços: consultoria",
+                        "label": {
+                            "pt-BR": "Serviços: consultoria",
+                            "default": "Serviços: consultoria"
+                        }
+                    },
+                    {
+                        "value": "Serviços: tecnologia",
+                        "label": {
+                            "pt-BR": "Serviços: tecnologia",
+                            "default": "Serviços: tecnologia"
+                        }
+                    },
+                    {
+                        "value": "Serviços: outros",
+                        "label": {
+                            "pt-BR": "Serviços: outros",
+                            "default": "Serviços: outros"
+                        }
+                    },
+                    {
+                        "value": "Franchising",
+                        "label": {
+                            "pt-BR": "Franchising",
+                            "default": "Franchising"
+                        }
+                    },
+                    {
+                        "value": "Varejo tradicional",
+                        "label": {
+                            "pt-BR": "Varejo tradicional",
+                            "default": "Varejo tradicional"
+                        }
+                    },
+                    {
+                        "value": "Varejo digital (ecommerce)",
+                        "label": {
+                            "pt-BR": "Varejo digital (ecommerce)",
+                            "default": "Varejo digital (ecommerce)"
+                        }
+                    },
+                    {
+                        "value": "Outros",
+                        "label": {
+                            "pt-BR": "Outros",
+                            "default": "Outros"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "d8a6f181-f957-4e49-8018-581dd760040a",
+            "label": {
+                "pt-BR": "Número de Funcionários",
+                "default": "Número de Funcionários"
+            },
+            "name": {
+                "pt-BR": "Número de Funcionários-seleção",
+                "default": "Número de Funcionários-seleção"
+            },
+            "api_identifier": "cf_numero_de_funcionarios_selecao",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "0-50",
+                        "label": {
+                            "pt-BR": "0-50",
+                            "default": "0-50"
+                        }
+                    },
+                    {
+                        "value": "51-100",
+                        "label": {
+                            "pt-BR": "51-100",
+                            "default": "51-100"
+                        }
+                    },
+                    {
+                        "value": "101-500",
+                        "label": {
+                            "pt-BR": "101-500",
+                            "default": "101-500"
+                        }
+                    },
+                    {
+                        "value": "501-1000",
+                        "label": {
+                            "pt-BR": "501-1000",
+                            "default": "501-1000"
+                        }
+                    },
+                    {
+                        "value": "+1000",
+                        "label": {
+                            "pt-BR": "+1000",
+                            "default": "+1000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "3a1b8f38-508b-4730-ab2c-805b0368316a",
+            "label": {
+                "pt-BR": "Verba Mensal de MKT",
+                "default": "Verba Mensal de MKT"
+            },
+            "name": {
+                "pt-BR": "Verba Mensal de MKT-selecao",
+                "default": "Verba Mensal de MKT-selecao"
+            },
+            "api_identifier": "cf_verba_mensal_de_mkt_selecao",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "menor que R$ 1.000",
+                        "label": {
+                            "pt-BR": "menor que R$ 1.000",
+                            "default": "menor que R$ 1.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 1.001 a R$ 3.000",
+                        "label": {
+                            "pt-BR": "R$ 1.001 a R$ 3.000",
+                            "default": "R$ 1.001 a R$ 3.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 3.001 a R$ 5.000",
+                        "label": {
+                            "pt-BR": "R$ 3.001 a R$ 5.000",
+                            "default": "R$ 3.001 a R$ 5.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 5.001 a R$ 10.000",
+                        "label": {
+                            "pt-BR": "R$ 5.001 a R$ 10.000",
+                            "default": "R$ 5.001 a R$ 10.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 10.001 a R$ 20.000",
+                        "label": {
+                            "pt-BR": "R$ 10.001 a R$ 20.000",
+                            "default": "R$ 10.001 a R$ 20.000"
+                        }
+                    },
+                    {
+                        "value": "maior que R$ 20.000",
+                        "label": {
+                            "pt-BR": "maior que R$ 20.000",
+                            "default": "maior que R$ 20.000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "c6836ff9-4371-410f-be90-3c570b937c7e",
+            "label": {
+                "pt-BR": "utm_source",
+                "default": "utm_source"
+            },
+            "name": {
+                "pt-BR": "utm_source",
+                "default": "utm_source"
+            },
+            "api_identifier": "cf_utm_source",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "4d5204d9-7d71-4099-9949-cf41755133e0",
+            "label": {
+                "pt-BR": "Quantos leads qualificados você recebe por mês?",
+                "default": "Quantos leads qualificados você recebe por mês?"
+            },
+            "name": {
+                "pt-BR": "leads-mes",
+                "default": "leads-mes"
+            },
+            "api_identifier": "cf_leads_mes",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "NUMBER_INPUT",
+            "data_type": "INTEGER"
+        },
+        {
+            "uuid": "8f5e7db3-fd48-4d5b-8ade-749e8a65fb2a",
+            "label": {
+                "pt-BR": "Número de Funcionários",
+                "default": "Número de Funcionários"
+            },
+            "name": {
+                "pt-BR": "Número de Funcionários",
+                "default": "Número de Funcionários"
+            },
+            "api_identifier": "cf_numero_de_funcionarios_0",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "0-50",
+                        "label": {
+                            "pt-BR": "0-50",
+                            "default": "0-50"
+                        }
+                    },
+                    {
+                        "value": "51-100",
+                        "label": {
+                            "pt-BR": "51-100",
+                            "default": "51-100"
+                        }
+                    },
+                    {
+                        "value": "101-500",
+                        "label": {
+                            "pt-BR": "101-500",
+                            "default": "101-500"
+                        }
+                    },
+                    {
+                        "value": "500-1000",
+                        "label": {
+                            "pt-BR": "500-1000",
+                            "default": "500-1000"
+                        }
+                    },
+                    {
+                        "value": "+ 1000",
+                        "label": {
+                            "pt-BR": "+ 1000",
+                            "default": "+ 1000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "RADIO_BUTTON",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "032b9713-b5f4-4405-b96e-64f0a6661740",
+            "label": {
+                "pt-BR": "Modelo de negócio:",
+                "default": "Modelo de negócio:"
+            },
+            "name": {
+                "pt-BR": "leads-modelo-negocio",
+                "default": "leads-modelo-negocio"
+            },
+            "api_identifier": "cf_leads_modelo_negocio",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "B2C",
+                        "label": {
+                            "pt-BR": "B2C",
+                            "default": "B2C"
+                        }
+                    },
+                    {
+                        "value": "B2B",
+                        "label": {
+                            "pt-BR": "B2B",
+                            "default": "B2B"
+                        }
+                    },
+                    {
+                        "value": "B2B2C",
+                        "label": {
+                            "pt-BR": "B2B2C",
+                            "default": "B2B2C"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "RADIO_BUTTON",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "f82633e6-9859-4477-ab17-035d894cff2d",
+            "label": {
+                "pt-BR": "Sua mensagem",
+                "default": "Sua mensagem"
+            },
+            "name": {
+                "pt-BR": "[form padrão] Mensagem",
+                "default": "[form padrão] Mensagem"
+            },
+            "api_identifier": "cf_mensagem_formcontato",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_AREA",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "acdc3154-e848-4366-9e49-4fdc62fccc41",
+            "label": {
+                "pt-BR": "Cargo",
+                "default": "Cargo"
+            },
+            "name": {
+                "pt-BR": "leads-cargo-pessoa",
+                "default": "leads-cargo-pessoa"
+            },
+            "api_identifier": "cf_cargo_site",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Estudante/Estagiário",
+                        "label": {
+                            "pt-BR": "Estudante/Estagiário",
+                            "default": "Estudante/Estagiário"
+                        }
+                    },
+                    {
+                        "value": "Analista",
+                        "label": {
+                            "pt-BR": "Analista",
+                            "default": "Analista"
+                        }
+                    },
+                    {
+                        "value": "Supervisor",
+                        "label": {
+                            "pt-BR": "Supervisor",
+                            "default": "Supervisor"
+                        }
+                    },
+                    {
+                        "value": "Coordenador",
+                        "label": {
+                            "pt-BR": "Coordenador",
+                            "default": "Coordenador"
+                        }
+                    },
+                    {
+                        "value": "Gerente",
+                        "label": {
+                            "pt-BR": "Gerente",
+                            "default": "Gerente"
+                        }
+                    },
+                    {
+                        "value": "Diretor/C-level",
+                        "label": {
+                            "pt-BR": "Diretor/C-level",
+                            "default": "Diretor/C-level"
+                        }
+                    },
+                    {
+                        "value": "Presidente/CEO",
+                        "label": {
+                            "pt-BR": "Presidente/CEO",
+                            "default": "Presidente/CEO"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "003c2c26-1c2d-4ade-b8cb-72055d74c468",
+            "label": {
+                "pt-BR": "Quanto investe por mês em mídia digital?",
+                "default": "Quanto investe por mês em mídia digital?"
+            },
+            "name": {
+                "pt-BR": "leads-investimento-marketing-atual-midia",
+                "default": "leads-investimento-marketing-atual-midia"
+            },
+            "api_identifier": "cf_leads_investimento_marketing_atual_midia",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "menor que R$ 1.000",
+                        "label": {
+                            "pt-BR": "menor que R$ 1.000",
+                            "default": "menor que R$ 1.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 1.001 a R$ 3.000",
+                        "label": {
+                            "pt-BR": "R$ 1.001 a R$ 3.000",
+                            "default": "R$ 1.001 a R$ 3.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 3.001 a R$ 5.000",
+                        "label": {
+                            "pt-BR": "R$ 3.001 a R$ 5.000",
+                            "default": "R$ 3.001 a R$ 5.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 5.001 a R$ 10.000",
+                        "label": {
+                            "pt-BR": "R$ 5.001 a R$ 10.000",
+                            "default": "R$ 5.001 a R$ 10.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 10.001 a R$ 20.000",
+                        "label": {
+                            "pt-BR": "R$ 10.001 a R$ 20.000",
+                            "default": "R$ 10.001 a R$ 20.000"
+                        }
+                    },
+                    {
+                        "value": "maior que R$ 25.000",
+                        "label": {
+                            "pt-BR": "maior que R$ 25.000",
+                            "default": "maior que R$ 25.000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "RADIO_BUTTON",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "1cec43e5-bb89-4456-82d3-42829db6e03d",
+            "label": {
+                "pt-BR": "Qual a faixa de investimento atual em marketing e vendas:",
+                "default": "Qual a faixa de investimento atual em marketing e vendas:"
+            },
+            "name": {
+                "pt-BR": "leads-investimento-marketing-atual",
+                "default": "leads-investimento-marketing-atual"
+            },
+            "api_identifier": "cf_investimento_em_marketing",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "menor que R$ 5.000",
+                        "label": {
+                            "pt-BR": "menor que R$ 5.000",
+                            "default": "menor que R$ 5.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 5.000 a R$ 9.000",
+                        "label": {
+                            "pt-BR": "R$ 5.000 a R$ 9.000",
+                            "default": "R$ 5.000 a R$ 9.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 9.001 a R$ 15.000",
+                        "label": {
+                            "pt-BR": "R$ 9.001 a R$ 15.000",
+                            "default": "R$ 9.001 a R$ 15.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 15.001 a R$ 20.000",
+                        "label": {
+                            "pt-BR": "R$ 15.001 a R$ 20.000",
+                            "default": "R$ 15.001 a R$ 20.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 20.001 a R$ 30.000",
+                        "label": {
+                            "pt-BR": "R$ 20.001 a R$ 30.000",
+                            "default": "R$ 20.001 a R$ 30.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 30.001 a R$ 50.000",
+                        "label": {
+                            "pt-BR": "R$ 30.001 a R$ 50.000",
+                            "default": "R$ 30.001 a R$ 50.000"
+                        }
+                    },
+                    {
+                        "value": "maior que R$ 50.000",
+                        "label": {
+                            "pt-BR": "maior que R$ 50.000",
+                            "default": "maior que R$ 50.000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "20481a3e-b445-4f57-863d-ca7026e1130c",
+            "label": {
+                "pt-BR": "O sua área pode investir por mês para aumentar consideravelmente os resultados dos indicadores em marketing e vendas?",
+                "default": "O sua área pode investir por mês para aumentar consideravelmente os resultados dos indicadores em marketing e vendas?"
+            },
+            "name": {
+                "pt-BR": "leads-investimento-marketing-desejado",
+                "default": "leads-investimento-marketing-desejado"
+            },
+            "api_identifier": "cf_leads_investimento_marketing_desejado",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "menor que R$ 5.000",
+                        "label": {
+                            "pt-BR": "menor que R$ 5.000",
+                            "default": "menor que R$ 5.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 5.000 a R$ 9.000",
+                        "label": {
+                            "pt-BR": "R$ 5.000 a R$ 9.000",
+                            "default": "R$ 5.000 a R$ 9.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 9.001 a R$ 15.000",
+                        "label": {
+                            "pt-BR": "R$ 9.001 a R$ 15.000",
+                            "default": "R$ 9.001 a R$ 15.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 15.001 a R$ 20.000",
+                        "label": {
+                            "pt-BR": "R$ 15.001 a R$ 20.000",
+                            "default": "R$ 15.001 a R$ 20.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 20.001 a R$ 25.000",
+                        "label": {
+                            "pt-BR": "R$ 20.001 a R$ 25.000",
+                            "default": "R$ 20.001 a R$ 25.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 25.001 a R$ R$ 35.000",
+                        "label": {
+                            "pt-BR": "R$ 25.001 a R$ R$ 35.000",
+                            "default": "R$ 25.001 a R$ R$ 35.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 35.001 a R$ 50.000",
+                        "label": {
+                            "pt-BR": "R$ 35.001 a R$ 50.000",
+                            "default": "R$ 35.001 a R$ 50.000"
+                        }
+                    },
+                    {
+                        "value": "maior que R$ 50.000",
+                        "label": {
+                            "pt-BR": "maior que R$ 50.000",
+                            "default": "maior que R$ 50.000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "RADIO_BUTTON",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "9a6b2ee2-d79b-41cc-a7d4-e6415348b8ee",
+            "label": {
+                "pt-BR": "Faturamento Mensal da Empresa",
+                "default": "Faturamento Mensal da Empresa"
+            },
+            "name": {
+                "pt-BR": "Faturamento Mensal da Empresa",
+                "default": "Faturamento Mensal da Empresa"
+            },
+            "api_identifier": "cf_faturamento_mensal_da_empresa",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "R$ 10.001 a R$ 50.000",
+                        "label": {
+                            "pt-BR": "R$ 10.001 a R$ 50.000",
+                            "default": "R$ 10.001 a R$ 50.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 50.001 a R$ 300.000",
+                        "label": {
+                            "pt-BR": "R$ 50.001 a R$ 300.000",
+                            "default": "R$ 50.001 a R$ 300.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 300.001 a R$ 500.000",
+                        "label": {
+                            "pt-BR": "R$ 300.001 a R$ 500.000",
+                            "default": "R$ 300.001 a R$ 500.000"
+                        }
+                    },
+                    {
+                        "value": "R$ 500.001 a R$ 1.000.000",
+                        "label": {
+                            "pt-BR": "R$ 500.001 a R$ 1.000.000",
+                            "default": "R$ 500.001 a R$ 1.000.000"
+                        }
+                    },
+                    {
+                        "value": "maior que R$ 1.000.001",
+                        "label": {
+                            "pt-BR": "maior que R$ 1.000.001",
+                            "default": "maior que R$ 1.000.001"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "RADIO_BUTTON",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "a37d5204-e4fe-41da-8557-a6bda1b286b6",
+            "label": {
+                "pt-BR": "Faturamento anual (opcional):",
+                "default": "Faturamento anual (opcional):"
+            },
+            "name": {
+                "pt-BR": "leads-faturamento-anual",
+                "default": "leads-faturamento-anual"
+            },
+            "api_identifier": "cf_faturamento_anual",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Até 180.000",
+                        "label": {
+                            "pt-BR": "Até 180.000",
+                            "default": "Até 180.000"
+                        }
+                    },
+                    {
+                        "value": "180.001 a 960.000",
+                        "label": {
+                            "pt-BR": "180.001 a 960.000",
+                            "default": "180.001 a 960.000"
+                        }
+                    },
+                    {
+                        "value": "960.001 a 2.880.000",
+                        "label": {
+                            "pt-BR": "960.001 a 2.880.000",
+                            "default": "960.001 a 2.880.000"
+                        }
+                    },
+                    {
+                        "value": "2.880.001 a 3.600.000",
+                        "label": {
+                            "pt-BR": "2.880.001 a 3.600.000",
+                            "default": "2.880.001 a 3.600.000"
+                        }
+                    },
+                    {
+                        "value": "3.600.001 a 6.000.000",
+                        "label": {
+                            "pt-BR": "3.600.001 a 6.000.000",
+                            "default": "3.600.001 a 6.000.000"
+                        }
+                    },
+                    {
+                        "value": "6.600.001 a 10.800.000",
+                        "label": {
+                            "pt-BR": "6.600.001 a 10.800.000",
+                            "default": "6.600.001 a 10.800.000"
+                        }
+                    },
+                    {
+                        "value": "10.800.001 a 18.000.000",
+                        "label": {
+                            "pt-BR": "10.800.001 a 18.000.000",
+                            "default": "10.800.001 a 18.000.000"
+                        }
+                    },
+                    {
+                        "value": "Maior que 18.000.000",
+                        "label": {
+                            "pt-BR": "Maior que 18.000.000",
+                            "default": "Maior que 18.000.000"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "68d54795-c058-407f-936e-3e08f23e696b",
+            "label": {
+                "pt-BR": "utm_campaign",
+                "default": "utm_campaign"
+            },
+            "name": {
+                "pt-BR": "utm_campaign",
+                "default": "utm_campaign"
+            },
+            "api_identifier": "cf_utm_campaign",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "aed06c2d-6b80-453e-9ec1-2c4deb8c53d0",
+            "label": {
+                "pt-BR": "utm_content",
+                "default": "utm_content"
+            },
+            "name": {
+                "pt-BR": "utm_content",
+                "default": "utm_content"
+            },
+            "api_identifier": "cf_utm_content",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "95bf2e25-a995-424a-ae49-4169b49d8da4",
+            "label": {
+                "pt-BR": "comercial",
+                "default": "comercial"
+            },
+            "name": {
+                "pt-BR": "comercial",
+                "default": "comercial"
+            },
+            "api_identifier": "cf_comercial",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "662feeac-ee3e-4daf-8246-ab9139dbeab2",
+            "label": {
+                "pt-BR": "Resultado de Potencial Bruto",
+                "default": "Resultado de Potencial Bruto"
+            },
+            "name": {
+                "pt-BR": "[vagas] Potencial Bruto Mindsight",
+                "default": "[vagas] Potencial Bruto Mindsight"
+            },
+            "api_identifier": "cf_potencial_bruto_mindsight",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "NUMBER_INPUT",
+            "data_type": "INTEGER"
+        },
+        {
+            "uuid": "38930e0a-1172-4aaa-9664-e3fb7ec7a68f",
+            "label": {
+                "pt-BR": "Prazo desejado para início do trabalho:",
+                "default": "Prazo desejado para início do trabalho:"
+            },
+            "name": {
+                "pt-BR": "leads-tempo-para-iniciar",
+                "default": "leads-tempo-para-iniciar"
+            },
+            "api_identifier": "cf_tempo_para_iniciar",
+            "custom_field": true,
+            "validation_rules": {
+                "valid_options": [
+                    {
+                        "value": "Próximo mês",
+                        "label": {
+                            "pt-BR": "Próximo mês",
+                            "default": "Próximo mês"
+                        }
+                    },
+                    {
+                        "value": "Este trimestre",
+                        "label": {
+                            "pt-BR": "Este trimestre",
+                            "default": "Este trimestre"
+                        }
+                    },
+                    {
+                        "value": "Próximo trimestre",
+                        "label": {
+                            "pt-BR": "Próximo trimestre",
+                            "default": "Próximo trimestre"
+                        }
+                    }
+                ]
+            },
+            "presentation_type": "COMBO_BOX",
+            "data_type": "STRING"
+        },
+        {
+            "uuid": "6d837375-36f1-4360-bfe0-0ce6543ed57c",
+            "label": {
+                "pt-BR": "utm_term",
+                "default": "utm_term"
+            },
+            "name": {
+                "pt-BR": "utm_term",
+                "default": "utm_term"
+            },
+            "api_identifier": "cf_utm_term",
+            "custom_field": true,
+            "validation_rules": {},
+            "presentation_type": "TEXT_INPUT",
+            "data_type": "STRING"
+        }
+    ]
+}

@@ -7,17 +7,31 @@ export default class ContactService {
   public async create(data: any): Promise<any> {
     const params = Object.assign(data.body);
 
-    // https://developers.rdstation.com/pt-BR/authentication#conversionEventPostDetails
-    const rdStationResponse = await rdStationUtils.createConversion({
-      conversion_identifier: 'Site Bowe 2020 - step1',
+    const conversionParam = {
+      conversion_identifier: `Site Bowe ${new Date().getFullYear()} - ${params.utm_term}`,
       email: params.email,
       name: params.name,
       mobile_phone: params.phone,
-      website: '',
-    });
+      cf_leads_modelo_negocio: params.modelbusiness,
+      cf_my_custom_field: params.namebusiness,
+      cf_numero_de_funcionarios_0: params.numberemployees,
+      cf_natureza_do_negocio: params.optionbusiness,
+      company_site: params.website,
+      cf_cargo_na_empresa: params.office,
+      cf_utm_campaign: params.utm_campaign,
+      cf_utm_content: params.utm_content,
+      cf_utm_medium: params.utm_medium,
+      cf_utm_source: params.utm_source,
+      cf_utm_term: params.utm_term,
+    };
 
-    const rdStationData = rdStationResponse.data;
-    params.rdStationId = rdStationData.event_uuid;
+    // https://developers.rdstation.com/pt-BR/authentication#conversionEventPostDetails
+    const rdStationResponse = await rdStationUtils.createConversion(
+      conversionParam,
+    );
+
+    // const rdStationData = rdStationResponse.data;
+    // params.rdStationId = rdStationData.event_uuid;
 
     const customer = {};
 
