@@ -14,7 +14,7 @@ export default class ContactService {
       mobile_phone: params.phone,
       cf_leads_modelo_negocio: params.modelbusiness,
       cf_my_custom_field: params.namebusiness,
-      cf_numero_de_funcionarios_selecao: params.numberemployees,
+      cf_numero_de_funcionarios_0: params.numberemployees,
       cf_natureza_do_negocio: params.optionbusiness,
       company_site: params.website,
       cf_cargo_na_empresa: params.office,
