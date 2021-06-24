@@ -8,7 +8,7 @@ export default class ContactService {
     const params = Object.assign(data.body);
 
     const conversionParam = {
-      conversion_identifier: `${params.utm_term} - ${new Date().getFullYear()}`,
+      conversion_identifier: `${params.utm_identifier} - ${new Date().getFullYear()}`,
       email: params.email,
       name: params.name,
       mobile_phone: params.phone,
