@@ -10,6 +10,7 @@ export default joi.object().keys({
   office: joi.string(),
   optionbusiness: joi.string(),
   website: joi.string(),
+  utm_identifier: joi.string(),
   utm_source: joi.string(),
   utm_medium: joi.string(),
   utm_campaign: joi.string(),
