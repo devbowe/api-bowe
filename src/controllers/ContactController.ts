@@ -1,5 +1,5 @@
 import { CustomRequest, CustomResponse } from '../interfaces';
-import ContactService from '../services/ContactService'
+import ContactService from '../services/ContactService';
 
 export default class ContactController {
   async create(request: CustomRequest, response: CustomResponse) {
@@ -8,8 +8,8 @@ export default class ContactController {
       const contact = await contactService.create(request);
 
       response.send(contact);
-    } catch(e) {
-      response.handleHttpError(e)
+    } catch (e) {
+      response.handleHttpError(e);
     }
   }
 }

@@ -6,8 +6,12 @@ import ValidationHandler from '../middlewares/ValidationHandler';
 const ContactRouter = Router();
 const controller = new ContactController();
 
-ContactRouter.post('/send', ValidationHandler(createContactSchema), (req,res) => {
-    controller.create(req,res)
-});
+ContactRouter.post(
+  '/send',
+  ValidationHandler(createContactSchema),
+  (req, res) => {
+    controller.create(req, res);
+  },
+);
 
 export default ContactRouter;
