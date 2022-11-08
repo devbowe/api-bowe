@@ -52,6 +52,6 @@ export default class ContactService {
 
     // sendgrid.send(emailData);
 
-    return customer;
+    return rdStationResponse;
   }
 }
