@@ -6,23 +6,23 @@ import authRouter from './auth.routes';
 
 const routes = Router();
 
-// const options: cors.CorsOptions = {
-//   allowedHeaders: [
-//     'Origin',
-//     'X-Requested-With',
-//     'Content-Type',
-//     'Accept',
-//     'X-Access-Token',
-//   ],
-//   credentials: true,
-//   methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
-//   origin: '*',
-//   preflightContinue: false,
-//   optionsSuccessStatus: 204,
-// };
+const options: cors.CorsOptions = {
+  allowedHeaders: [
+    'Origin',
+    'X-Requested-With',
+    'Content-Type',
+    'Accept',
+    'X-Access-Token',
+  ],
+  credentials: true,
+  methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
+  origin: '*',
+  preflightContinue: false,
+  optionsSuccessStatus: 204,
+};
 
-routes.use(cors());
-routes.options('*', cors());
+routes.use(cors(options));
+routes.options('*', cors(options));
 
 routes.use('/users', usersRouter);
 routes.use('/contact', contactRouter);
