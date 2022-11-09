@@ -21,10 +21,8 @@ const routes = Router();
 //   optionsSuccessStatus: 204,
 // };
 
-// routes.use(cors(options));
-// routes.options('*', cors(options));
-
 routes.use(cors());
+routes.options('*', cors());
 
 routes.use('/users', usersRouter);
 routes.use('/contact', contactRouter);
